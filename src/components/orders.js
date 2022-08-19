@@ -7,9 +7,9 @@ function Orders({orders, products, customers, sortTable, actionDest, dest}) {
                 <thead className='bg-dark table-header'>
                   <tr>
                     <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link filter__link--number' id="order_id" href='#!'>ID</a></th>
-                    <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link filter__link--number' id="order_id" href='#!'>Product</a></th>
+                    <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link' id="order_id" href='#!'>Product</a></th>
                     <th scope="col" className='header__item'><a onClick={sortTable} className='filter__link filter__link--number' id='order_name' href="#!">Quantity</a></th>
-                    <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link filter__link--number' id="order_stock" href='#!'>User</a></th>
+                    <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link' id="order_stock" href='#!'>User</a></th>
                     <th scope='col' className='header__item'><a onClick={sortTable} className='filter__link filter__link--number' id="order_selling_price" href='#!'>Date</a></th>
                   </tr>
                 </thead>
